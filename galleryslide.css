@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.mySlides {display:none}
+
+#imgs
+{
+	height:650px;
+	width:1100px;
+	margin-top:5%;
+	margin-left:12%;
+	box-shadow:20px 20px 20px  #000;
+}
+.slideshow-container 
+{
+  max-width: 1000px;
+  position:relative;
+ 
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 20%;
+  text-align:;
+	margin-top:-5%;
+	margin-left:14%;
+	background-color:#FF5534;
+	position:absolute;
+}
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  
+ }
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
